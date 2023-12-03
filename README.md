@@ -19,10 +19,12 @@ Thermal Imaging Dataset: This dataset consists of thermal images captured under 
 The data processing phase is crucial to filter out noise and extract meaningful signals from the imaging data. The following methods are employed: Data Processing: Video Synchronization and Visualization One of the key challenges in remote physiological monitoring is ensuring that the data is visualized in a manner that's both intuitive and aligned with real-time events. To address this, our project incorporates a dedicated window for video playback, enabling users to gain a visual representation of the imaging data.
 
 Pipeline for the physiological parameters estimation image
+![image](https://github.com/nempremkumar/rppg-heart-rate-estimation/assets/145294904/092d449b-26ba-4a44-b4ac-01226d89bb9b)
+
 
 Thermal Work: The thermal dataset undergoes various processing stages, including: ROI extraction Temporal signal extraction heart rate extraction
 
-Multispectral Work: The multispectral data, with its 16 distinct bandwidths, offers a rich set of information: Extraction of temporal signals for each bandwidth Smoothing using a window size of 5 Heart rate extraction
+Multispectral Work: The multispectral data, with its 16 distinct bandwidths, offers a rich set of information: Extraction of temporal signals for each bandwidth Smoothing using a window size of 3 Heart rate extraction
 
 Installation and Setup
 
